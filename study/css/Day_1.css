@@ -1,0 +1,37 @@
+body {
+    background: #B3B3B3;
+    font-size: 125%;
+}
+
+div.profile {
+    font-family: Arial,  sans-serif;
+    color: #ffffff;
+    font-variant: small-caps;
+    text-align: left;
+    background: #666666;
+    height: auto;
+   
+    padding: 20px;
+    
+
+}
+
+.profile img {
+    width: 100px;
+    border-radius: 50%;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+   
+}
+
+#Name {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+
+}
+
+#brief-description {
+    font-size: 1em;
+    margin-top: 10px;
+}

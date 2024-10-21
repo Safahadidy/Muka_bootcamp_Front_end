@@ -31,29 +31,27 @@
              
         </div>
         <br>
-        <div>
-            <h2>my favourite films</h2>
-            <iframe width="400" height="300" src="https://www.youtube.com/embed/ngiK1gQKgK8">
-            </iframe>
-            
-        </div>
-    
-    
-    <section>
-        <h2>my favourite audio</h2>
-        <audio controls>
-            <source src="untitled.mp3" type="audio/mp3">
-            Your browser does not support the audio element.
-        </audio>
-    </section>
-    <br>
+        <figure>
+        <h2>My Favourite Films</h2>
+        
+        <!-- YouTube video embedded with iframe -->
+        <iframe width="400" height="300" src="https://www.youtube.com/embed/ngiK1gQKgK8"
+            title="Wonder frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+        <!-- Provide a transcript for accessibility (optional but recommended) -->
+        <p><strong>Video Transcript:</strong></p>
+        <p>This video is about my favourite film</p>
 
-    <section>
-        <h3> my favourite video</h3>
-        <video controls height="300" width="400" poster="lolo.jpg">
-            <source src="video.mp4">
-        </video>
-    </section>
+        </figure>
+    <figure>
+        <figcaption> this record contain voice</figcaption>
+        <audio controls>
+        <source src="untitled.mp3" type="audio/mp3">
+        </audio>
+        
+    </figure>
     <article>
 
         <iframe width="400" height="300" src="Day1.html">
@@ -67,12 +65,12 @@
             <form method="post">
                 <div>
                     <label for="Name">Name</label>
-                    <input type="text" name="Name" placeholder="Enter the name" minlength="5">
+                    <input id="Name" aria-labelledby="Name" type="text" name="Name" placeholder="Enter the name" minlength="5">
                 </div>
                 <br>
                 <div>
-                    <label for="Name">Email</label>
-                    <input type="email" name="email" placeholder="Enter the email address">
+                    <label for="Email">Email</label>
+                    <input type="email" id="Email" aria-labelledby="Email" name="email" placeholder="Enter the email address">
                 </div>
                 <br>
                 
