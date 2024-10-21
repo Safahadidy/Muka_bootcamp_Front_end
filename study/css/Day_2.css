@@ -10,6 +10,7 @@ body {
     background-position: center;
     font-family: "Righteous", sans-serif;
     text-align: center;
+    text-shadow: #6e200c ;
 
 }
 
@@ -28,32 +29,28 @@ body {
 }
 
 .type h3 {
+    font-variant: small-caps;
     font-size: 1.5rem;
     margin-bottom: 15px;
 }
 
 .type ul {
     padding: 0;
-    list-style-type:square;
-    list-style-position: outside;
-}
-
-.type ul li {
-    display: inline-block;
-    
-    margin-right: 30px;
-    
-    font-size: 1.2rem;
-    
-}
-
-ol {
+    list-style-type:inherit;
+    list-style-position: inside;
     margin-left: 20px;
+    
 }
+.ol h3 {
+    font-variant: small-caps;
+    margin-left: 20px;
 
-ol li {
+}
+.ol li {
+    margin-left: 20px;
     font-size: 1.2rem;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    line-height: .5;
 }
 
 details {
