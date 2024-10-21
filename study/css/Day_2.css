@@ -61,12 +61,12 @@ details {
     background-color: #ec3b23b7;
     
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 details summary {
-    cursor: pointer;
     font-size: 1.2rem;
+    font-style: italic;
     font-weight: bold;
 }
 
@@ -78,14 +78,15 @@ fieldset {
 }
 
 legend {
-    font-size: 1.5rem;
-    color: #ff7e5f;
+    font-size: 20px;
+    color: #cc2f08;
     font-weight: bold;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
 }
 
 form label {
     display: block;
-;
     font-weight: bold;
 }
 
@@ -97,34 +98,18 @@ form {
     border-radius: 5px;
     font-size: 1rem;
 }
-
-form input[type="submit"] {
-    background-color: #ff7e5f;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
+footer p {
+    margin: 20px 0;
+    font-size: 10px;
+    text-align: center;
 }
+footer fieldset{
+    background: linear-gradient(to top, #bdb4b2,
+            #feb47b);
 
-form input[type="submit"]:hover {
-    background-color: #feb47b;
-}
 
-
-footer {
-    background: linear-gradient(to right, #bdb4b2,
-                #feb47b);
-       
-   
     background-size: cover;
     color: white;
     padding: 05px;
     text-align: center;
-}
-
-footer p {
-    margin: 10px 0;
-    font-size: 1rem;
 }
