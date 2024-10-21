@@ -26,12 +26,12 @@ div.profile {
 }
 
 #Name {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+    font-size: 150%;
+    margin-bottom :10px;
 
 }
 
 #brief-description {
-    font-size: 1em;
+   
     margin-top: 10px;
 }
