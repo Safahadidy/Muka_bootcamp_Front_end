@@ -1,0 +1,133 @@
+/* إعدادات عامة */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d2dee7;
+    color: #470c0ce7;
+}
+
+.header {
+    background-image: url(images1.jpeg);
+    background-position: center;
+    font-family: "Righteous", sans-serif;
+    text-align: center;
+
+}
+
+.header h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: #d35131;
+}
+
+
+.type {
+    margin: 20px;
+    
+    background-position: center;
+
+}
+
+.type h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.type ul {
+    padding: 0;
+    list-style-type:square;
+    list-style-position: outside;
+}
+
+.type ul li {
+    display: inline-block;
+    
+    margin-right: 30px;
+    
+    font-size: 1.2rem;
+    
+}
+
+ol {
+    margin-left: 20px;
+}
+
+ol li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+details {
+    margin: 20px;
+    font-size: 1.1rem;
+
+
+    background-color: #ec3b23b7;
+    
+    padding: 10px;
+    border-radius: 5px;
+}
+
+details summary {
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+fieldset {
+    margin: 30px;
+    border: 3px solid #ff7e5f;
+    border-radius: 10px;
+}
+
+legend {
+    font-size: 1.5rem;
+    color: #ff7e5f;
+    font-weight: bold;
+}
+
+form label {
+    display: block;
+;
+    font-weight: bold;
+}
+
+form {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form input[type="submit"] {
+    background-color: #ff7e5f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+form input[type="submit"]:hover {
+    background-color: #feb47b;
+}
+
+/* تنسيق الفوتر */
+footer {
+    background: linear-gradient(to right, #bdb4b2,
+                #feb47b);
+       
+   
+    background-size: cover;
+    color: white;
+    padding: 05px;
+    text-align: center;
+}
+
+footer p {
+    margin: 10px 0;
+    font-size: 1rem;
+}

@@ -20,14 +20,12 @@ div.profile {
     width: 100px;
     border-radius: 50%;
     float: right;
-    margin-left: 20px;
-    margin-bottom: 10px;
-   
+    
 }
 
 #Name {
     font-size: 150%;
-    margin-bottom :10px;
+    margin-top: 10px;
 
 }
 
