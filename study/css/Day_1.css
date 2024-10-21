@@ -3,14 +3,13 @@ body {
     font-size: 125%;
 }
 
-div.profile {
+.profile {
     font-family: Arial,  sans-serif;
     color: #ffffff;
     font-variant: small-caps;
     text-align: left;
     background: #666666;
-    height: auto;
-   
+    border-style: solid;    
     padding: 20px;
     
 
@@ -19,17 +18,17 @@ div.profile {
 .profile img {
     width: 100px;
     border-radius: 50%;
-    float: right;
+    float: left;
     
 }
 
 #Name {
     font-size: 150%;
-    margin-top: 10px;
+    margin: 10px 0 10px 0;
 
 }
 
 #brief-description {
    
-    margin-top: 10px;
+    margin: 10px 10px 10px 10px;
 }
