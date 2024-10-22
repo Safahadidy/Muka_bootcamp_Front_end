@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background-image: linear-gradient(to top,
+        #bdb4b2,
+        #feb47b);
+}
+
+header {
+    background-color: #799681cb;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0;
+    font-family: "Geo",sans-serif;
+}
+
+.importance {
+    background-color: #c8cec9cb;
+    border-radius: 10px;
+    max-width: 100%;
+    padding: 10px;
+    margin-left: 5px;
+    border: 1px solid rgb(187, 187, 159);
+    box-sizing: border-box;
+
+}
+.importance h3 ,.ben h3 , .rec h3 {
+    font-family: "Geo",
+        sans-serif;
+}
+
+.importance img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Best Healthy Foods Section */
+.ben,
+.rec {
+    background-color: #c8cec9cb; 
+    border-radius: 8px;
+    max-width: 45%;
+    border: 5px solid rgb(206, 195, 216);
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 10px;
+    margin-left: 15px;
+    height: 850px;;
+    
+}
+
+.ben ul,
+.rec ul {
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+.ben li,
+.rec li {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.ben li img,
+.rec img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+.foot {
+    border: 1px solid #ccc;
+    background-color: #feb47b;
+}
