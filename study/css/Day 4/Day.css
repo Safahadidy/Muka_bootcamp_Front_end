@@ -12,8 +12,6 @@ body {
     background: #f9f9f9;
 }
 
-/* Navbar */
-/* Navbar */
 #navbar {
     display: flex;
     justify-content: space-around;
@@ -24,39 +22,39 @@ body {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     padding: 18PX;
-    z-index: 1000;
-    flex-direction: row;
+    
+    
     
 }
 
 #navbar a {
     color: #fff;
     text-decoration: none;
-    padding: 0.5em;
-    transition: color 0.3s ease;
+    padding: 10px;
+    transition: color 0.3s ease-in;
 }
 
 #navbar a:hover {
     color: #ff6347;
 }
-/* Welcome Section */
+
 #welcome-section {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to bottom, #bfc3c7, #ade4e7);
+    background: linear-gradient(to bottom, #bfc3c7, #95bec0);
     text-align: center;
     color: #fff;
     padding: 2em;
-    gap: 2em;
+    
 }
 
 #welcome-section .profile-photo {
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
 }
 
 #welcome-section h1 {
@@ -66,13 +64,13 @@ body {
 
 #welcome-section p {
     font-size: 1.2em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 
 #welcome-section .btn {
     background-color: #ff6347;
     color: #fff;
-    padding: 0.8em 1.5em;
+    padding: 1em 1em;
     border-radius: 25px;
     text-decoration: none;
     transition: background-color 0.3s ease;
@@ -81,41 +79,41 @@ body {
 #welcome-section .btn:hover {
     background-color: #ff4500;
 }
-
+.con{
+    height: 100hv;;
+}
 
 #about {
-    padding: 4em 2em;
+    padding: 2em 2em;
     background-color: #a5c6c7;
     text-align: center;
 }
 
 #about h2 {
     font-size: 2.5em;
-    margin-bottom: 1em;
+    margin-bottom: .4em;
 }
 
 #about p {
     max-width: 600px;
     margin: auto;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
-/* Projects Section */
 #projects {
-    padding: 4em 2em;
+    padding: 2em 2em;
     background: #d3c5c5;
 }
 
 #projects h2 {
     text-align: center;
     font-size: 2.5em;
-    margin-bottom: 1em;
+    margin-bottom: .6em;
 }
 
 .projects-container {
     display: flex;
-    flex-wrap: wrap;
-    gap: 2em;
+    gap: 1em;
     justify-content: center;
 }
 
@@ -126,28 +124,28 @@ body {
     width: 300px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 8px 4px 8px rgba(0, 0, 0, 0.1);
+    
 }
 
 .project-tile:hover {
-    transform: scale(1.05);
+
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* Contact Section */
+
 #contact {
-    padding: 4em 2em;
+    padding: 2em 2em;
     background: #c9e3e7;
     text-align: center;
 }
 
 #contact h2 {
     font-size: 2.5em;
-    margin-bottom: 1em;
+    margin-bottom: .5em;
 }
 
 #contact .btn {
@@ -156,7 +154,7 @@ body {
     padding: 0.8em 1.5em;
     border-radius: 25px;
     text-decoration: none;
-    transition: background-color 0.3s ease;
+
 }
 
 #contact .btn:hover {
